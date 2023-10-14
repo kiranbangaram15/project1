@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+    color:blue;
+    text-align: center;
+}
+#tab{
+    border: 1px transparent;
+    width:350px;
+    padding:15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-style:normal ;
+}
+#button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
