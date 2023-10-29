@@ -9,7 +9,7 @@ app.use(express.json());
 app.use("/",routes);
 // db connection
 mongoose
-.connect("mongodb+srv://Bangaramkiran:kiran1514@cluster0.pmfirz4.mongodb.net/batch5")
+.connect("mongodb+srv://Bangaramkiran:kiran1514@cluster0.pmfirz4.mongodb.net/blood1")
 .then(() => {
     console.log("DB CONNECTED");
 

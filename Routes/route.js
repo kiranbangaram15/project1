@@ -1,15 +1,7 @@
-// const express = require("express");
-// const router = express.Router()
-
-// const StudentController = require("../Controllers/studentcontroller");
-
-// router.post("/reg", StudentController.createStudent);
-// module.exports = router;
-
 const express = require("express");
 const router = express.Router()
 
-const coursecontroller = require("../Controllers/coursecontroller");
+const Donatecontroller = require("../Controllers/Donatecontroller");
 
-router.post("/reg", coursecontroller.createcourse);
+router.post("/register", Donatecontroller.createDonate);
 module.exports = router;
