@@ -3,9 +3,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app  = express();
+const routes = require("./Routes/route");
+
+app.use(express.json());
+app.use("/",routes);
 // db connection
 mongoose
-.connect("mongodb+srv://Bangaramkiran:kiran1514@cluster0.pmfirz4.mongodb.net/")
+.connect("mongodb+srv://Bangaramkiran:kiran1514@cluster0.pmfirz4.mongodb.net/batch5")
 .then(() => {
     console.log("DB CONNECTED");
 
